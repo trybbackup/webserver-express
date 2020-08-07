@@ -1,3 +1,14 @@
 crear archivo .gitignore
 git init
 git status
+git add .
+git commit -m "Primer Commit"
+// Subir a Heroku
+heroku login   => hacer una unica vez 
+               => colocar el correo trybbackup@gmail.com
+               => La respuesta es: Logged in as trybbackup@gmail.com
+heroku git:remote -a trybbackup
+git push heroku master
+
+Pagina:
+https://trybbackup.herokuapp.com/ 
