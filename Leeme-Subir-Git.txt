@@ -1,0 +1,3 @@
+crear archivo .gitignore
+git init
+git status
